@@ -380,6 +380,23 @@ body {
     top: 50%;
     bottom: 50%;
 }
+#thanks-modal .icon-success {
+    font-size: 7rem;
+    transition: all linear 1s;
+    animation: rotate 1s infinite linear;
+}
+@keyframes rotate{
+    0% {
+        transform: rotate(-10deg);
+    }
+    50% {
+        transform: rotate(10deg);
+    }
+    100% {
+        transform: rotate(-10deg);
+    }
+
+}
 .home-news .news {
     display: flex;
     height: auto;
